@@ -21,8 +21,19 @@
 `git tag -d [tagName]`
 `-d`是delete缩写
 
+## 删除远端库的标签
+`git push MAgit :refs/tags/[tagName]`   注意：“:” 前面要有空格 
+例：`git push MAgit :refs/tags/test0.2.1`
+
 ## 发布标签
 通常的git push不会将标签对象提交到git服务器，我们需要进行显式的操作：
 - `git push origin v0.1.2` # 将v0.1.2标签提交到git服务器
-- `git push origin –tags`  # 将本地所有标签一次性提交到git服务器
+- `git push origin –-tags`  # 将本地所有标签一次性提交到git服务器
 
+## 删除本地branch
+`git branch -d/D [branchName]` (大写的D可以强制删除branch) 
+例子：`git branch -d alpha`或`git branch -D alpha`
+
+## 删除远端branch
+`git push origin :[branchName]` 注意：“:” 前面要有空格 
+例子：`git push origin :alpha`
