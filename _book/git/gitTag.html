@@ -57,6 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="../node/" />
+    
     
     <link rel="prev" href="./" />
     
@@ -100,7 +102,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="../babel/">
+        <li class="chapter " data-level="1.2" data-path="../link/">
+            
+                <a href="../link/">
+            
+                    
+                    相关技术外链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../babel/">
             
                 <a href="../babel/">
             
@@ -113,7 +128,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="../html5新特性/">
+        <li class="chapter " data-level="1.4" data-path="../html5新特性/">
             
                 <a href="../html5新特性/">
             
@@ -127,7 +142,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="../html5新特性/history.html">
+        <li class="chapter " data-level="1.4.1" data-path="../html5新特性/history.html">
             
                 <a href="../html5新特性/history.html">
             
@@ -145,7 +160,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="./">
+        <li class="chapter " data-level="1.5" data-path="./">
             
                 <a href="./">
             
@@ -159,12 +174,44 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="gitTag.html">
+        <li class="chapter active" data-level="1.5.1" data-path="gitTag.html">
             
                 <a href="gitTag.html">
             
                     
                     git tag命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../node/">
+            
+                <a href="../node/">
+            
+                    
+                    node相关学习
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../node/quickServer.html">
+            
+                <a href="../node/quickServer.html">
+            
+                    
+                    快速搭建webServer
             
                 </a>
             
@@ -222,29 +269,41 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="&#x5217;&#x51FA;&#x6807;&#x7B7E;">&#x5217;&#x51FA;&#x6807;&#x7B7E;</h2>
+                                <h3 id="&#x5217;&#x51FA;&#x6807;&#x7B7E;">&#x5217;&#x51FA;&#x6807;&#x7B7E;</h3>
 <p><code>git tag</code>
 &#x67E5;&#x770B;&#x6240;&#x6709;tag</p>
-<h2 id="&#x6DFB;&#x52A0;&#x6807;&#x7B7E;">&#x6DFB;&#x52A0;&#x6807;&#x7B7E;</h2>
+<h3 id="&#x6DFB;&#x52A0;&#x6807;&#x7B7E;">&#x6DFB;&#x52A0;&#x6807;&#x7B7E;</h3>
 <p><code>git tag -a [version] -m [information]</code>
 &#x521B;&#x5EFA;&#x9644;&#x6CE8;&#x6807;&#x7B7E;&#x65F6;&#xFF0C;<code>-a</code>&#x5373;annotated&#x7684;&#x7F29;&#x5199;&#xFF0C;&#x6307;&#x5B9A;&#x6807;&#x7B7E;&#x7C7B;&#x578B;&#xFF0C;&#x540E;&#x9644;&#x6807;&#x7B7E;&#x540D;&#x3002;<code>-m</code>&#x6307;&#x5B9A;&#x6807;&#x7B7E;&#x8BF4;&#x660E;&#xFF0C;&#x8BF4;&#x660E;&#x4FE1;&#x606F;&#x4F1A;&#x4FDD;&#x5B58;&#x5728;&#x6807;&#x7B7E;&#x5BF9;&#x8C61;&#x4E2D;&#x3002;
 &#x4F8B;&#x5982;&#xFF1A;<code>git tag -a test0.1.1 -m &apos;0.1.0&#x6D4B;&#x8BD5;&#x73AF;&#x5883;xxxx&apos;</code></p>
-<h2 id="&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x6CE8;&#x91CA;&#x4FE1;&#x606F;">&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x6CE8;&#x91CA;&#x4FE1;&#x606F;</h2>
+<h3 id="&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x6CE8;&#x91CA;&#x4FE1;&#x606F;">&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x6CE8;&#x91CA;&#x4FE1;&#x606F;</h3>
 <p><code>git tag -l -n</code>
 &#x67E5;&#x770B;&#x6240;&#x6709;tag&#x548C;tag&#x7684;&#x5BF9;&#x5E94;&#x6CE8;&#x91CA;&#x4FE1;&#x606F;</p>
-<h2 id="&#x5207;&#x6362;&#x5230;&#x6807;&#x7B7E;">&#x5207;&#x6362;&#x5230;&#x6807;&#x7B7E;</h2>
+<h3 id="&#x5207;&#x6362;&#x5230;&#x6807;&#x7B7E;">&#x5207;&#x6362;&#x5230;&#x6807;&#x7B7E;</h3>
 <p>&#x540C;&#x5207;&#x6362;&#x5206;&#x652F;&#x4E00;&#x6837;&#xFF0C;<code>git checkout [tagName]</code></p>
-<h2 id="&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x4FEE;&#x6539;">&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x4FEE;&#x6539;</h2>
+<h3 id="&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x4FEE;&#x6539;">&#x67E5;&#x770B;&#x6807;&#x7B7E;&#x53CA;&#x4FEE;&#x6539;</h3>
 <p><code>git show [tagName]</code></p>
-<h2 id="&#x5220;&#x9664;&#x6807;&#x7B7E;">&#x5220;&#x9664;&#x6807;&#x7B7E;</h2>
+<h3 id="&#x5220;&#x9664;&#x6807;&#x7B7E;">&#x5220;&#x9664;&#x6807;&#x7B7E;</h3>
 <p><code>git tag -d [tagName]</code>
 <code>-d</code>&#x662F;delete&#x7F29;&#x5199;</p>
-<h2 id="&#x53D1;&#x5E03;&#x6807;&#x7B7E;">&#x53D1;&#x5E03;&#x6807;&#x7B7E;</h2>
+<h3 id="&#x5220;&#x9664;&#x8FDC;&#x7AEF;&#x5E93;&#x7684;&#x6807;&#x7B7E;">&#x5220;&#x9664;&#x8FDC;&#x7AEF;&#x5E93;&#x7684;&#x6807;&#x7B7E;</h3>
+<p><code>git push MAgit :refs/tags/[tagName]</code>   &#x6CE8;&#x610F;&#xFF1A;&#x201C;:&#x201D; &#x524D;&#x9762;&#x8981;&#x6709;&#x7A7A;&#x683C;
+&#x4F8B;&#xFF1A;<code>git push MAgit :refs/tags/test0.2.1</code></p>
+<h3 id="&#x53D1;&#x5E03;&#x6807;&#x7B7E;">&#x53D1;&#x5E03;&#x6807;&#x7B7E;</h3>
 <p>&#x901A;&#x5E38;&#x7684;git push&#x4E0D;&#x4F1A;&#x5C06;&#x6807;&#x7B7E;&#x5BF9;&#x8C61;&#x63D0;&#x4EA4;&#x5230;git&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x663E;&#x5F0F;&#x7684;&#x64CD;&#x4F5C;&#xFF1A;</p>
 <ul>
 <li><code>git push origin v0.1.2</code> # &#x5C06;v0.1.2&#x6807;&#x7B7E;&#x63D0;&#x4EA4;&#x5230;git&#x670D;&#x52A1;&#x5668;</li>
-<li><code>git push origin &#x2013;tags</code>  # &#x5C06;&#x672C;&#x5730;&#x6240;&#x6709;&#x6807;&#x7B7E;&#x4E00;&#x6B21;&#x6027;&#x63D0;&#x4EA4;&#x5230;git&#x670D;&#x52A1;&#x5668;</li>
+<li><code>git push origin &#x2013;-tags</code>  # &#x5C06;&#x672C;&#x5730;&#x6240;&#x6709;&#x6807;&#x7B7E;&#x4E00;&#x6B21;&#x6027;&#x63D0;&#x4EA4;&#x5230;git&#x670D;&#x52A1;&#x5668;</li>
 </ul>
+<h3 id="&#x5220;&#x9664;&#x672C;&#x5730;branch">&#x5220;&#x9664;&#x672C;&#x5730;branch</h3>
+<p><code>git branch -d/D [branchName]</code> (&#x5927;&#x5199;&#x7684;D&#x53EF;&#x4EE5;&#x5F3A;&#x5236;&#x5220;&#x9664;branch) 
+&#x4F8B;&#x5B50;&#xFF1A;<code>git branch -d alpha</code>&#x6216;<code>git branch -D alpha</code></p>
+<h3 id="&#x5220;&#x9664;&#x8FDC;&#x7AEF;branch">&#x5220;&#x9664;&#x8FDC;&#x7AEF;branch</h3>
+<p><code>git push origin :[branchName]</code> &#x6CE8;&#x610F;&#xFF1A;&#x201C;:&#x201D; &#x524D;&#x9762;&#x8981;&#x6709;&#x7A7A;&#x683C; 
+&#x4F8B;&#x5B50;&#xFF1A;<code>git push origin :alpha</code></p>
+<h3 id="&#x91CD;&#x547D;&#x540D;&#x5206;&#x652F;">&#x91CD;&#x547D;&#x540D;&#x5206;&#x652F;</h3>
+<p><code>git branch -m deve develop</code> deve&#x662F;&#x65E7;&#x5206;&#x652F;&#x540D;&#x79F0;&#xFF0C;develop&#x662F;&#x65B0;&#x5206;&#x652F;&#x540D;&#x79F0;</p>
+<h5 id="&#x9700;&#x8981;&#x518D;&#x628A;&#x8FDC;&#x7AEF;&#x65E7;&#x5206;&#x652F;&#x5220;&#x53BB;&#xFF0C;&#x5426;&#x5219;&#x53EA;&#x662F;&#x5C06;&#x672C;&#x5730;&#x5206;&#x652F;&#x6539;&#x540D;&#xFF0C;&#x5728;&#x8FDC;&#x7AEF;&#x65B0;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x5206;&#x652F;">&#x9700;&#x8981;&#x518D;&#x628A;&#x8FDC;&#x7AEF;&#x65E7;&#x5206;&#x652F;&#x5220;&#x53BB;&#xFF0C;&#x5426;&#x5219;&#x53EA;&#x662F;&#x5C06;&#x672C;&#x5730;&#x5206;&#x652F;&#x6539;&#x540D;&#xFF0C;&#x5728;&#x8FDC;&#x7AEF;&#x65B0;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x5206;&#x652F;</h5>
 
                                 
                                 </section>
@@ -272,10 +331,14 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: git的使用">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: git的使用">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="../node/" class="navigation navigation-next " aria-label="Next page: node相关学习">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -284,7 +347,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"git tag命令","level":"1.4.1","depth":2,"previous":{"title":"git的使用","level":"1.4","depth":1,"path":"git/README.md","ref":"git/README.md","articles":[{"title":"git tag命令","level":"1.4.1","depth":2,"path":"git/gitTag.md","ref":"git/gitTag.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook tutorial","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":"*"},"file":{"path":"git/gitTag.md","mtime":"2017-03-14T08:34:10.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-14T03:04:59.673Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"git tag命令","level":"1.5.1","depth":2,"next":{"title":"node相关学习","level":"1.6","depth":1,"path":"node/README.md","ref":"node/README.md","articles":[{"title":"快速搭建webServer","level":"1.6.1","depth":2,"path":"node/quickServer.md","ref":"node/quickServer.md","articles":[]}]},"previous":{"title":"git的使用","level":"1.5","depth":1,"path":"git/README.md","ref":"git/README.md","articles":[{"title":"git tag命令","level":"1.5.1","depth":2,"path":"git/gitTag.md","ref":"git/gitTag.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook tutorial","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":"*"},"file":{"path":"git/gitTag.md","mtime":"2017-07-03T08:55:57.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-03T09:26:09.956Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -292,10 +355,6 @@
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
