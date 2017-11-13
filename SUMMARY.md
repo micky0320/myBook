@@ -9,8 +9,9 @@
     - [git tag命令](git/gitTag.md)
 * [node相关学习](node/README.md)
     - [快速搭建webServer](node/quickServer.md)
-* [framework相关内容](framework/ReADME.md)
+* [framework相关内容](framework/README.md)
 	- [react与scss的相爱相杀](framework/aboutScss.md)
 	- [react的相关问题及对应方案](framework/reactIssue.md)
-	
+* [http的相关学习](http/README.md)
+	- [cors跨域与jsonp跨域的区别](http/cors&jsonp.md)
 
