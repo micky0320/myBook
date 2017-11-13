@@ -7,6 +7,7 @@
     - [history学习](html5新特性/history.md)
 * [git的使用](git/README.md)
     - [git tag命令](git/gitTag.md)
+    - [revert & reset & checkout比较](git/revert指令相关.md)
 * [node相关学习](node/README.md)
     - [快速搭建webServer](node/quickServer.md)
 * [framework相关内容](framework/README.md)
