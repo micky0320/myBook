@@ -4,7 +4,9 @@
 Ajax的使用大家可以去查API，文档很详细了；
 
 ## reqwest的使用
-很多人看到reqwest，第一感觉就是：“哎，哥们你写错了吧，应该是request吧。” 额，表示很伤〜真的没写错，reqwest官方npm包就直说了，
+很多人看到reqwest，第一感觉就是：“哎，哥们你写错了吧，应该是request吧。” 额，表示很伤〜真的没写错.
+
+reqwest的全用，官方npm包说的很直白。
 
 ```
 It's AJAX
