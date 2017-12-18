@@ -15,4 +15,5 @@
 	- [react的相关问题及对应方案](framework/reactIssue.md)
 * [http的相关学习](http/README.md)
 	- [cors跨域与jsonp跨域的区别](http/cors&jsonp.md)
+	- [reqwest与fetch的使用](http/reqwest与fetch的使用.md)
 
