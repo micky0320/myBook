@@ -23,6 +23,10 @@ HEAD^100: 前100个版本
 ```
 代码提交到存储库,使用reset可撤消此文件在存储库的修改，文件回到缓存区
 
+>   当提交错误代码到远端库，需要删除时: 
+>   git reset --hard <commit_id>   		// 先切到正确的commit_id上，
+>   git push origin HEAD --force		// 删除该commit_id后的提交记录
+
 ```
 git add src/index.js
 git ci -m 'modify index.js'

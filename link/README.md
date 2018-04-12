@@ -6,3 +6,6 @@
 
 #### 前端面试题
 [前端面试题](http://www.runoob.com/w3cnote/front-end-developer-questions-and-answers.html)
+
+#### gitbook插件及配置
+[gitbook插件及配置](https://www.cnblogs.com/zhangjk1993/p/5066771.html#_label1_6)

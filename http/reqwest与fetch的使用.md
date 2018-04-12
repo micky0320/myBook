@@ -8,10 +8,10 @@ Ajax的使用大家可以去查API，文档很详细了；
 
 reqwest的全用，官方npm包说的很直白。
 
-```
-It's AJAX
-All over again. Includes support for xmlHttpRequest, JSONP, CORS, and CommonJS Promises A.
-```
+
+> It's AJAX
+> All over again. Includes support for xmlHttpRequest, JSONP, CORS, and CommonJS Promises A.
+
 
 普通的reqwest写法跟ajax大抵差不多，像下面这样：
 ```javascript
@@ -120,3 +120,5 @@ fetchJsonp('/users.jsonp')
     console.log('parsing failed', ex)
   })
 ```
+---------------------------------------
+***

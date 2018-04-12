@@ -3,6 +3,7 @@
   "structure": {
     "readme": "README.md"
   },
+  "author" : "youyuan",
   "links": {
     "gitbook": false,
     "sharing": {
@@ -11,5 +12,9 @@
       "twitter": false,
       "all": false
     }
-  }
+  },
+  "plugins": ["toggle-chapters","-search"]
+  
+  
+  
 }
