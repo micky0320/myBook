@@ -16,5 +16,7 @@
 * [7.http的相关学习](http/README.md)
 	- [cors跨域与jsonp跨域的区别](http/cors&jsonp.md)
 	- [reqwest与fetch的使用](http/reqwest与fetch的使用.md)
+* [8.获取用户实际地址](getAddress/README.md)
+	- [百度api获取用户地理位置](getAddressByBaidu.md)
 * [8.荣耀之路](wzry/README.md)
 
