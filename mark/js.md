@@ -1,4 +1,5 @@
 // 创建动态form，Post提交订单
+```javascript
 function dynamicForm(path, params, method) {
   const form = document.createElement('form')
   form.setAttribute('method', method || 'post')
@@ -17,5 +18,4 @@ function dynamicForm(path, params, method) {
   form.submit()
   document.body.removeChild(form)
 }
-
-
+```
