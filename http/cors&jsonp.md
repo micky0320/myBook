@@ -1,4 +1,4 @@
-cors与jsonp的区别
+### cors与jsonp的区别
 
 1.请求方式的区别
 cors跨域是一种新型的跨域方式，支持`get/post/option`等方式请求，
@@ -17,4 +17,8 @@ xhrFields: {
 crossDomain: true,
 ```
 
-
+### MAC机本地开发跨域解决方案（降低chorme安全级别）
+> 在终端中输入如下命令，降低chorme安全级别,注意Micky是我的机器名称，需要根据你当前的文件夹进行修改。
+```
+open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-data-dir=/Users/Micky/Documents/MyChromeDevUserData
+```
