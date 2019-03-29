@@ -1,4 +1,4 @@
-# Summary
+## 我的小书
 
 * [前言](README.md)
 * [1.相关技术外链](link/README.md)
@@ -17,6 +17,7 @@
 	- [cors跨域与jsonp跨域的区别](http/cors&jsonp.md)
 	- [reqwest与fetch的使用](http/reqwest与fetch的使用.md)
 * [8.获取用户实际地址](getAddress/README.md)
-	- [百度api获取用户地理位置](getAddressByBaidu.md)
-* [8.荣耀之路](wzry/README.md)
-
+	- [百度api获取用户地理位置](getAddress/getAddressByBaidu.md)
+* [9.相关代码整理](mark/README.md)
+   - [js模块整理](mark/js.md)
+   - [共享文件--快速创建服务器](mark/server.md)
