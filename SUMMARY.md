@@ -21,3 +21,5 @@
 * [9.相关代码整理](mark/README.md)
    - [js模块整理](mark/js.md)
    - [共享文件--快速创建服务器](mark/server.md)
+* [10.ng反向代理](ng/README.md)
+   -  [ng反向代理](ng/ng.md)
